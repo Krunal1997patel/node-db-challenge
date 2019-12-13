@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+  - RDBMS is the database that does the storing, updating, and deleting. SQL  is the language  access and control RDBMSs
+
 - [ ] Why do tables need a `primary key`?
+
+  - Each table need a unique `primary key` to be be joinable on something. It ensures this uniqueness and which can be used to retrieve individual rows. 
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+  -  Foreign key
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+    - To have a many to many relationship between tables is to have third table which connects them with foreign key.
 
 ## Minimum Viable Product
 
